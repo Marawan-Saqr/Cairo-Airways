@@ -1,0 +1,256 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.display{
+    display: none;
+}
+
+/* start header */
+header{
+    background-color: #270202;
+    color: #fff;
+}
+
+header .logo i{
+    font-size: 37px;
+    margin-right: 5px;
+    animation-name: earth;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes earth{
+    25%{
+        transform: rotate(90deg);
+        color: red;
+    }
+
+    50%{
+        transform: rotate(180deg);
+        color: blue;
+    }
+
+    75%{
+        transform: rotate(270deg);
+        color: gold;
+    }
+
+    100%{
+        transform: rotate(360deg);
+        color: green;
+    }
+}
+
+header .logo h1 span{
+    font-size: 22px;
+}
+/* start media for header */
+@media (max-width: 767px) {
+    header .right{
+        margin-bottom: 10px;
+    }
+}
+/* end media for header */
+/* end header */
+
+/* start nav */
+nav{
+    background-color: #350000;
+    box-shadow: 1px 1px 8px 1px black;
+}
+
+nav .list button{
+    padding: 3px 21px;
+    margin: 0px 1px;
+    background-color: #422929;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+nav .list button:hover{
+    background-color: black;
+    transition: all .5s;
+}
+
+nav .list ul{
+    list-style-type: none;
+    color: #fff;
+    padding: 0px;
+}
+/* start media for nav */
+@media (max-width: 767px) {                                 /* mobile and tablet screen rules */
+    nav .list{
+        flex-wrap: wrap;
+    }
+
+    nav .list button{
+        margin: 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {          /* small screen rules */
+    nav .list{
+        flex-wrap: wrap;
+    }
+
+    nav .list button{
+        margin: 5px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {          /* meduim screen rules */
+    nav .list{
+        flex-wrap: wrap;
+    }
+
+    nav .list button{
+        margin: 5px;
+    }
+}
+/* end media for nav */
+/* end nav */
+
+
+/* start section main */
+.main{
+    background-image: url("../images/main.jpg");
+    background-size: 100% 100%;
+    min-height: 520px;
+}
+
+.main .content{
+    text-align: center;
+    margin-top: 130px;
+    color: black;
+}
+
+.main .content h3{
+    font-weight: bold;
+    font-size: 44px;
+}
+
+.main .content h4{
+    font-size: 31px;
+}
+
+.main .content button{
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 5px 18px;
+    border-radius: 5px;
+    margin: 8px 0px;
+}
+
+.main .content p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* end section main */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
