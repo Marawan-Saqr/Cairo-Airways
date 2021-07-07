@@ -70,6 +70,37 @@ $(document).ready(function(){
         $(".sixth").hide();
         $(".seventh").slideToggle();
     });
+
+    // show section main
+
+    $(".box.one").click(function(){
+        $(".main.one").fadeIn(1000);
+        $(".main.two").hide();
+        $(".main.three").hide();
+        $(".main.four").hide();
+        
+    });
+
+    $(".box.two").click(function(){
+        $(".main.one").hide();
+        $(".main.two").fadeIn(1000);
+        $(".main.three").hide();
+        $(".main.four").hide();
+    });
+
+    $(".box.three").click(function(){
+        $(".main.one").hide();
+        $(".main.two").hide();
+        $(".main.three").fadeIn(1000);
+        $(".main.four").hide();
+    });
+
+    $(".box.four").click(function(){
+        $(".main.one").hide();
+        $(".main.two").hide();
+        $(".main.three").hide();
+        $(".main.four").fadeIn(1000);
+    });
 }); // document
 
 
