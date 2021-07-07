@@ -86,6 +86,9 @@ nav .list ul{
 @media (max-width: 767px) {                                 /* mobile and tablet screen rules */
     nav .list{
         flex-wrap: wrap;
+        width: 101%;
+        margin: auto;
+        font-size: 10px;
     }
 
     nav .list button{
@@ -151,17 +154,30 @@ nav .list ul{
     font-weight: bold;
     font-size: 18px;
 }
+/* start media for section main */
+@media (max-width: 767px) {                        /* mobile and tablet screen rules */
+    .main{
+        background-image: url("../images/main.jpg");
+        background-size: 100% auto;
+        min-height: 520px;
+        background-repeat: no-repeat;
+    }
 
+    .main .content{
+        text-align: center;
+        margin-top: 50px;
+        color: #fff;
+    }
 
+    .main .content h3{
+        font-size: 28px;
+    }
 
-
-
-
-
-
-
-
-
+    .main .content h4{
+        font-size: 19px;
+    }
+}
+/* end media for section main */
 /* end section main */
 
 
